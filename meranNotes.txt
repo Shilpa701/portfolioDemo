@@ -1,0 +1,77 @@
+Markup language- set of rules that will define what type of content document should hold
+
+HTML- used to display content in a webpage
+HTML document - collection of html elements
+     HTML elements: starting tag, content,closing tag
+    1. Basic tag: content to display in web page
+       -heading tag: <h1>...<h6>
+       -paragraph tag: <p></p>
+       -bold - <b></b>
+       -Itallics- <em></em>
+       -highlights - <mark>
+       -strike - <s> tag
+       -superlative - <sup>
+       -subscript decarate - <sub>
+       -link - <a> 
+       -To break line - <br>
+       -Ordered List - Ol tag, li tag
+       -Unordered list - Ul tag, li tag
+       -Description tag - dl tag,dt tag,dd tag
+       horizontal line -<hr>
+
+
+
+    2. Based on display value of tags in browser, we can classify tags:
+       block tags - It can take entire width of the browser h tag, p tag
+       inline tags -  it use only width of the content to display content in browsereg:img tag, a tag
+
+   
+    placeholder - attribute specifies a short hint that describes the expected value of an input field.
+
+Table
+------
+Table - Used to display contents in rol and col- table tag
+thead - table head
+tbody - table body
+tr tag- we enter data in a row
+th / td : columns th-bold
+
+two or more rol or col merge we use-colspan/rolspan
+
+images - img tag
+container tag - can include other tags inside a tag
+              - div tag - an invisible container that can hold any kind of content, including other HTML elements and divs.
+              - section tag
+              - article tag
+
+              emded data from other website - iframe tag
+              icons - i tag
+              Semantic tag - meaning full 
+                       - header tag
+                       -(navigator tag) - Nav tag
+                       -section tag
+                       -article tag
+                       -aside tag - side page content
+                       -Footer tag - eg: copy right issue,contact. it is constant important data
+pseudo class define special state  of an element.
+syntax:
+     selector:pseudoclass{
+      property:value;
+     }
+priority - id , class , universal selector
+
+   inline elemnets overlap if we give padding and mergin
+   inline elements to block elemnets act we give display:inline-block
+   overlap - position absolute 
+   bottom 0px -position set after values assign in default so we give bottom 0. if there is chance in margin
+   transform:translatex(-50);  hide it on screen( not want to seen on screen) , give negative value o left
+    left 50%
+    hover in container tag and change in shape.
+    align item center -vertically center
+
+height and width should be same and also border radius give 50 % output will be circle
+combination of color apply in backgorund image
+backgorund-image:linear gradient (angle/direction,col 1,col 2)
+-linear-gradient is used to set combination of colors as backgorund.
+animations in css - animate.style site
+AOS animation : aos animation scroll
